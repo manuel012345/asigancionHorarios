@@ -1,0 +1,68 @@
+#menu {
+	color: #ff4253;
+	background-color: black;
+}
+.navegador{
+	background-color: blue;
+	color: white;
+}
+.jumbotron{
+	background-image: url(../media/img/fondo.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+.bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+}
+
+@media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+           }
+}
+.bfondo{
+  background-image: url('../media/img/b3.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+div#form{
+  position: absolute;
+  width:320px;
+  height:300px;
+  height:auto;
+  background-color: #ddead2;
+  margin:auto;
+  border-radius: 38px;
+  padding:60px;
+  left:50%;
+  top:45%;
+  margin-left:-172px;
+  margin-top:-200px;
+}
+div.form-item{position: relative; display: block; margin-bottom: 40px;}
+ input{transition: all .2s ease;}
+ input.form-style{
+  color:#1e7e34;
+  display: block;
+  width: 90%;
+  height: 44px;
+  padding: 5px 5%;
+  border:1px solid #ccc;
+  -moz-border-radius: 27px;
+  -webkit-border-radius: 27px;
+  border-radius: 27px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  background-color: #fff;
+  font-family:'HelveticaNeue','Arial', sans-serif;
+  font-size: 105%;
+  letter-spacing: .8px;
+}
